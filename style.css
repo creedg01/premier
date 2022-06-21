@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+header{
+background: white;
+width: 97.5%;
+border-bottom: 2px solid #036383;
+box-shadow: 0px 0px 10px #000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 15px
+}
+
+.logo{
+    font-size: 35px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif Impact, 'Arial Narrow Bold';
+}
+.nav_links li{
+    display: inline-block;
+    padding: 10px 0px;
+    grid-column-start: auto;
+}
+.nav_links li a{
+    padding: 9px 25px;
+    background-color: #036383;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button{
+    padding: 5px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+ background-color: #036383;
+}
+section{
+    margin-top: 04px;
+background-color: rgb(233, 243, 250);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 250px;
+height: 100vh;
+}
+.tittle{
+    font-size: 20px;
+    float: left;
+    width: 230px;
+    padding: 50px;
+    text-align: left;
+}
+.container-btns{
+    position: absolute;
+    top: 650px;
+}
+.btn-first{
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 20px;
+    padding: 30px;
+    width: 250px;
+    color: #000;
+    cursor: pointer;
+}
+.btn-first:hover{
+    transition: all 0.3s ease-in-out;
+    background: #036383;
+    color: #fff;
+}
+.btn-first:nth-child(1){
+    margin-right: 30px;
+}
+.btn-first:nth-child(2){
+    background: #036383;
+}
+.btn-first:nth-child(2):hover{
+    background: #fff;
+    color: #036383;
+}
+#parba{
+    background-color: #036383;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;  
+}
+.chapitre{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    padding: 40px;
+}
+.chapitre h1{
+    font-size: 60px;
+
+}
+article{
+    background-color:  rgb(215, 239, 255);
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;  
+}
+.pr span h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #036383;
+    font-size: 35px;
+    padding: 100px 20px;
+    text-align: center;
+}
+.card span h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #036383;
+    font-size: 35px;
+    padding: 100px 20px;
+    text-align: center;
+}
+.associe{
+    padding: 10px 30px;
+    text-align: center; font-size: 13px;
+    margin-top: 50px;
+    display: inline-flex;
+}
+.col-sm-3{
+    background: none;
+    padding: 10px 300px;
+    text-align: center; font-size: 13px;
+    margin-top: 50px;
+    display: inline-flex;
+}
+.card2{
+    width: 200px;
+    margin: 1em;
+    align-items: center;
+    justify-content: center; 
+}
+.card3{
+    padding: 15px 160px;
+}
+.card-body {
+    border: 1px solid #036383;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+}
+          
+.card-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+.card-text {
+    text-indent: 50px;
+    font-size: 20px;
+    width: 190px;
+    padding: 10px;
+    text-align: left;
+    
+}
+.ctt span h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #036383;
+    font-size: 35px;
+    padding: 100px 20px;
+    text-align: center;
+}
+.boîte {
+    float: none;
+    text-align: center;
+    font-size: 30px;
+    padding: 100px;
+}
+.boîte .field{
+    height: 8vh;
+    width: 450px;
+    background-color: #036383;
+}
+.boîte .right{
+    padding: 50px;
+    height: 55vh;
+    width: 500px;
+    background-color: #036383 ;
+}
+footer{
+    margin-top: 10px;
+    background-color: #01090c;
+    color: white;
+    height: 60vh;
+}
+footer h1{
+    font-size: 20px;
+}
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+    padding: 20px 60px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer .icon{
+    padding: 60px 560px;
+}
+footer #contact{
+   font-size: 10px;
+   padding: 5px 500px; 
+}
